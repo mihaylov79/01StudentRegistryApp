@@ -37,7 +37,7 @@ jobs:
     needs: build_and_test
 
     steps:
-      - name: Deploy the app
+      - name: Deploy the 01StudentRegistryApp
         uses: johnbeynon/render-deploy-action@v0.0.8
         with: 
           service-id: ${{ secrets.SERVICE_ID }}
